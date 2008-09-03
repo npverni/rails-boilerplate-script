@@ -1,3 +1,4 @@
+ #!/bin/bash
 #restful-authentication
 ./script/plugin install git://github.com/technoweenie/restful-authentication.git
 ./script/generate authenticated user sessions
