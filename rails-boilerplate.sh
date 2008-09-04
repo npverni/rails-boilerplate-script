@@ -29,7 +29,7 @@ script/generate rspec_controller welcome index
 touch app/views/layouts/application.html.erb
 touch public/stylesheets/screen.css
 touch public/stylesheets/reset.css
-echo "<%= :yield %>" > app/views/layouts/application.html.erb 
+echo "<%= yield %>" > app/views/layouts/application.html.erb 
 
 #uncomment the default route
 sed -e 's/#\( map.root :controller => \"welcome\".*\)/\1/' config/routes.rb > config/routes.new;
