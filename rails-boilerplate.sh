@@ -25,7 +25,7 @@ rake db:migrate
 
 #remove the index.html, create a default home controller, create placeholder application.html.erb layout and stylesheets
 mv public/index.html public/info.html
-script/generate controller home index
+script/generate rspec_controller home index
 touch app/views/layouts/application.html.erb
 touch public/stylesheets/screen.css
 touch public/stylesheets/reset.css
