@@ -6,7 +6,7 @@
 #jRails
 ./script/plugin install git://github.com/aaronchi/jrails.git
  
-#install shoulda and factory girl, thanks thoughtbot
+#install shoulda, thanks thoughtbot
 script/plugin install git://github.com/thoughtbot/shoulda.git
  
  
