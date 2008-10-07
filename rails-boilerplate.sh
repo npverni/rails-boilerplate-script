@@ -6,18 +6,22 @@
 #jRails
 ./script/plugin install git://github.com/aaronchi/jrails.git  
 
-#rspec
-cd vendor/plugins
-git clone git://github.com/dchelimsky/rspec.git
-git clone git://github.com/dchelimsky/rspec-rails.git
-cd rspec
-git checkout 1.1.4
-cd ../rspec-rails
-git checkout 1.1.4
-cd ..
-rm -rf rspec/.git
-rm -rf rspec-rails/.git
-cd ../../
+#install shoulda and factory girl, thanks thoughtbot
+script/plugin install git://github.com/thoughtbot/shoulda.git
+
+
+#un comment for rspecrspec
+#cd vendor/plugins
+#git clone git://github.com/dchelimsky/rspec.git
+#git clone git://github.com/dchelimsky/rspec-rails.git
+#cd rspec
+#git checkout 1.1.4
+#cd ../rspec-rails
+#git checkout 1.1.4
+#cd ..
+#rm -rf rspec/.git
+#rm -rf rspec-rails/.git
+#cd ../../
 
 #create the databases
 rake db:create:all
