@@ -1,4 +1,13 @@
 #!/bin/bash
+# Rails Boilerplate Script
+# author: nathan verni
+# instructions:  drop into the root of a new rails project and run 'sh rails-boilerplate.sh;rm rails boilerplate.sh'
+
+
+
+
+
+
 #restful-authentication
 ./script/plugin install git://github.com/technoweenie/restful-authentication.git
 ./script/generate authenticated user sessions
