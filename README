@@ -1,1 +1,6 @@
+WHAT IT DOES
 Boilerplate Rails Script for restful-authentication, jQuery/jRails, shoulda
+
+
+HOW TO USE IT
+just run it in the root of a new rails app
