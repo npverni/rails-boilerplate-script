@@ -1,5 +1,5 @@
 WHAT IT DOES
-Boilerplate Rails Script for restful-authentication, jQuery/jRails, shoulda
+Installs restful-authentication, jQuery/jRails, shoulda.  creates a default controller and route.
 
 
 HOW TO USE IT
